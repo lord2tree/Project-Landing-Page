@@ -9,36 +9,62 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="hero">
-      <div class="header-title">
-        <img
-          class="header-logo"
-          src="img/Bitcoin_logo_gold.png"
-          alt="bitcoin logo"
-        />
-        <ul>
-          <li><a href="https://www.theodinproject.com/">header link one</a></li>
-          <li><a href="https://www.theodinproject.com/">header link one</a></li>
-          <li><a href="https://www.theodinproject.com/">header link one</a></li>
-        </ul>
-      </div>
-
-      <div class="hero-content">
-        <div class="hero-content-left">
-          <h1>Decentralized Dreams: Exploring the World of Bitcoin</h1>
-
-          <p>
-            This website has some subtext that goes here under the main title.
-            Its a smaller font and the color is lower contrast.
-          </p>
-          <button>Create Wallet</button>
-        </div>
-        <div class="hero-content-right">
+    <div class="background-hero">
+      <div class="hero">
+        <div class="header-title">
           <img
-            class="hero-content-image"
-            src="img/money-6990721_1280.jpg"
-            alt="image of physical bitcoin with stock candles graphics in background"
+            class="header-logo"
+            src="img/btc-logo-cartoon.png"
+            alt="bitcoin logo"
           />
+          <ul>
+            <li>
+              <a
+                href="https://www.bing.com/search?pglt=513&PC=U474&q=price+of+bitcoin&FORM=ANNTA1"
+                target="_blank"
+                rel="noopener"
+                >Bitcoin Price</a
+              >
+            </li>
+            <li>
+              <a href="https://bitcoin.org/en/" target="_blank" rel="noopener"
+                >Bitcoin Official Site</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=YHjYt6Jm5j8"
+                target="_blank"
+                rel="noopener"
+                >Feeling Bullish</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-content">
+          <div class="hero-main-text-container">
+            <h1>Decentralized Dreams: Exploring the World of Bitcoin</h1>
+
+            <p class="hero-secondary-text">
+              This website has some subtext that goes here under the main title.
+              Its a smaller font and the color is lower contrast.
+            </p>
+            <a
+              href="https://www.bitaddress.org/bitaddress.org-v3.3.0-SHA256-dec17c07685e1870960903d8f58090475b25af946fe95a734f88408cef4aa194.html"
+              target="_blank"
+              rel="noopener"
+            >
+              <button>Create Wallet</button>
+            </a>
+          </div>
+          <div class="hero-image-container">
+            <img
+              class="hero-image"
+              src="img/bitcoins-falling.png"
+              alt="image of physical bitcoin with stock candles graphics in background"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -50,8 +76,8 @@
         <div class="square">
           <img
             class="square-pic"
-            src="img/decentral.jpg"
-            alt="image of many dots connected by lines"
+            src="img/decentral.gif"
+            alt="image of many decentralized dots connected by lines"
           />
           <p>
             Decentralized: Bitcoin operates on a decentralized network, without
@@ -60,7 +86,11 @@
         </div>
 
         <div class="square">
-          <img class="square-pic" src="" alt="" />
+          <img
+            class="square-pic"
+            src="img/21million-btc.png"
+            alt="image of bitcoin logo with the number 21 million in the background"
+          />
           <p>
             Limited supply: The maximum supply of Bitcoin is limited to 21
             million coins, with a limited amount of new coins added to the
@@ -69,7 +99,11 @@
         </div>
 
         <div class="square">
-          <img class="square-pic" src="" alt="" />
+          <img
+            class="square-pic"
+            src="img/pseudonymous.png"
+            alt="image of man using shoe as mask"
+          />
           <p>
             Pseudonymous: Transactions on the Bitcoin network are recorded
             publicly, but the identities of the users involved are not directly
@@ -78,7 +112,11 @@
         </div>
 
         <div class="square">
-          <img class="square-pic" src="" alt="" />
+          <img
+            class="square-pic"
+            src="img/digital-chain.png"
+            alt="image of digital chain"
+          />
           <p>
             Immutable: Transactions on the Bitcoin network are irreversible and
             cannot be altered once they have been confirmed and added to the
@@ -88,27 +126,40 @@
       </div>
     </div>
 
-    <div class="content-two">
-      <p>
-        "The root problem with conventional currency is all the trust that's
-        required to make it work. The central bank must be trusted not to debase
-        the currency, but the history of fiat currencies is full of breaches of
-        that trust."
-      </p>
-      <p>-Satoshi Nakamoto</p>
+    <div class="content-two-background">
+      <div class="content-two">
+        <p class="quote">
+          "The root problem with conventional currency is all the trust that's
+          required to make it work. The central bank must be trusted not to
+          debase the currency, but the history of fiat currencies is full of
+          breaches of that trust."
+        </p>
+        <p class="quoter">-Satoshi Nakamoto</p>
+      </div>
     </div>
 
     <div class="content-three">
-      <div class="left-text">
-        <p>Call to action! It's time!</p>
-        <p>Sign up for our product by clicking that button right over there!</p>
-      </div>
+      <div class="content-container">
+        <div class="left-text">
+          <p>
+            Donate and help us reach the moon – not literally, just financially!
+          </p>
+          <p>
+            Your donation is appreciated more than a Bitcoin pizza purchase in
+            2010!
+          </p>
+        </div>
 
-      <div class="right-button">
-        <button>Sign up</button>
+        <div class="right-button">
+          <a href="/pages/mywallet.html" target="_blank" rel="noopener">
+            <button>Donate</button>
+          </a>
+        </div>
       </div>
     </div>
 
-    <div class="footer">Copyright © The Odin Project 2021</div>
+    <div class="footer">
+      <p class="copyright">Copyright © The Odin Project 2021</p>
+    </div>
   </body>
 </html>
